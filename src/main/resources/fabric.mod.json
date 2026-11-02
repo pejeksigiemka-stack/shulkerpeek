@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "shulkerpeek",
+  "version": "${version}",
+  "name": "ShulkerPeek",
+  "description": "Lekki, estetyczny mod kliencki wyswietlajacy zawartosc Shulker Boxow bezposrednio w tooltipie!",
+  "authors": [
+    "pejeksigiemka-stack"
+  ],
+  "contact": {
+    "homepage": "https://github.com/pejeksigiemka-stack/shulkerpeek",
+    "sources": "https://github.com/pejeksigiemka-stack/shulkerpeek"
+  },
+  "license": "MIT",
+  "icon": "assets/shulkerpeek/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.shulkerpeek.ShulkerPeekClient"
+    ]
+  },
+  "mixins": [
+    "shulkerpeek.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
